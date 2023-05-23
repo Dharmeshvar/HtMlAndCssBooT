@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- cssfiles link -->
+  <link rel="stylesheet" type="text/css" href="cssfiles/vision.css">
+
+  <!-- bootstrap css link -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+  <!-- bootstrap js link -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  <!-- fontawsome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <title>my</title>
+</head>
+
+<body>
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo2.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link menu" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu" href="about.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu" href="vision.html">VISION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  menu" href="program.html">PROGRAMS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  menu btn btn-outline-defualt" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                data-bs-whatever="@mdo">LOGIN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  menu btn btn-outline-defualt" data-bs-toggle="modal" data-bs-target="#exampleModal1"
+                data-bs-whatever="@mdo">SIGN-UP</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+
+  <!----------login section---------------->
+
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+
+        <section class="container ">
+          <div class="row content d-flex justify-content-center  pt-5 ">
+            <div class="col-md-10 ">
+              <div class="box shadow-lg bg-white p-0 ftb1">
+                <div class="modal-header">
+                  <h3 class="mb-4 text-center fs-1 modal-title " id="exampleModalLabel">Login Form</h3>
+                  <button type="button" class="btn-close  mb-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body ">
+                  <form class="mb-3">
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control rounded-0" id="floating" placeholder="name@gmail.com">
+                      <label for="floatinginput">email</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                      <input type="password" class="form-control rounded-0" id="floating" placeholder="password">
+                      <label for="floatingPassword">Password</label>
+                    </div>
+
+                    <div class="form-check mb-3">
+                      <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+                      <label class="form-check-label">Remember me</label>
+                    </div>
+                    <div class="d-grid  gap-2 mb-3">
+                      <button type="button" class="btn btn-dark btn-lg border-0 rounded-0">Login</button>
+                    </div>
+                    <div class="forgot-password-link mb-3 d-flex justify-content-lg-end">
+                      <a href="#" title="forgot password" class="text-decoration-none">Forgot Passwaord?</a>
+                    </div>
+                    <div class="sign-up-accounts">
+                      <p class="text-center">Or Sign UP</p>
+                      <div class="social-accounts d-flex justify-content-center">
+                        <a href="#" title="facebook"><i class="fa fa-facebook"></i> </a>
+                        <a href="#" title="twitter"><i class="fa fa-twitter"></i> </a>
+                        <a href="#" title="google"><i class="fa fa-google"></i> </a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!----------login section---------------->
+
+  <!----------signup section---------------->
+
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content content1">
+
+
+        <section class="container ">
+          <div class="row content d-flex justify-content-center  pt-3 ">
+            <div class="col-md-10 ">
+              <div class="box shadow-lg bg-white p-0 ftb1">
+                <div class="modal-header">
+                  <h3 class="mb-4 text-center fs-1 modal-title " id="exampleModalLabel1">Sign-Up Form</h3>
+                  <button type="button" class="btn-close  mb-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body ">
+                  <form class="mb-3">
+                    <div class="form-floating mb-3">
+                      <input type="name" class="form-control rounded-0" id="floating" placeholder="name@gmail.com">
+                      <label for="floatinginput">Full-Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control rounded-0" id="floating" placeholder="name@gmail.com">
+                      <label for="floatinginput">Email</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                      <input type="password" class="form-control rounded-0" id="floating" placeholder="password">
+                      <label for="floatingPassword">Password</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input type="password" class="form-control rounded-0" id="floating" placeholder="password">
+                      <label for="floatingPassword">Re-enter Password</label>
+                    </div>
+
+                    <div class="form-check mb-3">
+                      <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+                      <label class="form-check-label">All information correct</label>
+                    </div>
+                    <div class="d-grid gap-2 mb-3">
+                      <button type="button" class="btn btn-dark btn-lg border-0 rounded-0">Sign-Up</button>
+                    </div>
+                    <div class="forgot-password-link mb-3 d-flex justify-content-lg-end">
+                      <a href="#" title="forgot password" class="text-decoration-none">Log-In?</a>
+                    </div>
+                    <div class="sign-up-accounts">
+                      <p class="text-center">Or Sign UP</p>
+                      <div class="social-accounts d-flex justify-content-center">
+                        <a href="#" title="facebook"><i class="fa fa-facebook"></i> </a>
+                        <a href="#" title="twitter"><i class="fa fa-twitter"></i> </a>
+                        <a href="#" title="google"><i class="fa fa-google"></i> </a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!----------end signup section---------------->
+
+  <!----------banner section---------------->
+
+  <section id="banner">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-6 ">
+          <p class="promo-title">Vision For Upcoming Years..</p>
+          <p>To solve the problem of Uneconomical combustion of plastic scrap, waste tyre and muncipal solid waste, we
+            will strive hard to innovate eco-friendly efficient and reliable recycling technology. </p>
+          <a href="https://youtu.be/PCE2XGEIuSs"><img src="images/play.png" n class=" play-btn "> </i>Watch tutorial</a>
+        </div>
+        <div class="col-md-6 text-center best1" style="overflow:hidden">
+           <div class="myji "><img src="images/visionTop.svg" class="img-fluid mt-5" style="width:80%;"></div>
+        </div>
+      </div>
+    </div>
+
+    <img src="images/wave1.png" class="bottom-img">
+
+  </section>
+
+  <!-------------service section------------->
+
+  <section id="services">
+    <div class="container text-center">
+      <h1 class="title">OUR CORE VALUES</h1>
+      <div class="row text-center">
+        <div class="col-md-4 services">
+          <img src="images/v1.jpg" class="service-img">
+          <h5>We believe in the power of human mind</h5>
+          <p> It is our strong believe that whatever a human believe , it can achieve . The Almighty has equipped the
+            human with every possible capability . Therefore , the power of human could be utilized to counter all the
+            challenges of the modern technological world .</p>
+        </div>
+        <div class="col-md-4 services">
+          <img src="images/v2.png" class="service-img">
+          <h5>We believe in supportive work culture</h5>
+          <p>The proper work culture of corporate organization plays catalytic role in its development and growth . The
+            mutual cooperation , proper coordination and support among the personnel in the organization are must for
+            nurturing the evolution of required work culture .</p>
+        </div>
+        <div class="col-md-4 services">
+          <img src="images/v3.png" class="service-img">
+          <h5>We believe in knowledge - based economy</h5>
+          <p>The 21st Century is described as the century of knowledge and research . We strongly believe that the
+            economy of this century is greatly based on the promotion and cultivation of knowledge and research culture
+            so we are trying to increasing knowlwdge </p>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary">Scroll Down <b>⬇️</b></button>
+    </div>
+  </section>
+
+
+  <section id="services">
+    <div class="container text-center">
+      <h1 class="title">OUR FIRST PRIORITY</h1>
+      <div class="row text-center">
+        <div class="col-md-4 services">
+          <img src="images/v4.png" class="service-img">
+          <h5>We believe in innovations solution</h5>
+          <p> The promotion of innovations leads to evolution of new technologies . We at Fornnax Technology firmly
+            believe that the innovative recycling technology could provide solutions to the disposal problems of solid
+            wastes in an effective and economical manner .</p>
+        </div>
+        <div class="col-md-4 services">
+          <img src="images/v5.png" class="service-img">
+          <h5>We believe in waste to best conversion</h5>
+          <p> The dumping of plastic scrap , waste tyres and municipal solid waste in the open land is quite common in
+            the developing countries . The uneconomical and environmentally hazardous combustion of these wastes often
+            pose a serious challenge to the public health . Therefore , we believe in providing technological solutions
+            to convert the waste into best . </p>
+        </div>
+        <div class="col-md-4 services">
+          <img src="images/v6.png" class="service-img">
+          <h5>We believe in public health and safety</h5>
+          <p> Our environment is virtually becoming dump house due to routine addition of various kinds of solid wastes
+            . Many of these wastes are toxic to the health of environment and human . Therefore , we believe in the safe
+            and economical disposal of solid waste in the largest interest of public health . </p>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary">Scroll Down <b>⬇️</b></button>
+    </div>
+  </section>
+
+
+
+  <section id="services">
+    <div class="container text-center">
+      <h1 class="title">OUR CORE VISION</h1>
+      <div class="row text-center">
+        <div class="col-md-4 services">
+          <img src="images/v7.png" class="service-img">
+          <h5>We believe in clean and green environment its is goal</h5>
+          <p>The mother earth provides us everything which is required for our survival and living a descent life on
+            this planet . Therefore , it is our duty and obligation to keep our environment clean and green and we are
+            working everyday hard for make these possible and achive our goals early. </p>
+        </div>
+        <div class="col-md-4 services">
+          <img src="images/v8.png" class="service-img">
+          <h5>We believe in the responsible business culture</h5>
+          <p> We understand the responsibilities of a corporate organization towards consumers , society , country and
+            the world . The business activities of our organization would be always transparent , reliable and consumer
+            - centric with the engagement of all concerned stakeholders in the matter of policies and regulations .</p>
+        </div>
+        <div class="col-md-4 services">
+          <img src="images/v9.png" class="service-img">
+          <h5>We believe in customer's satisfaction and growth</h5>
+          <p>We believe in customer's satisfaction and growth We very firmly believe that our customer is our God . No
+            business can survive without the support and cooperation of customers . Therefore , our organization would
+            strive hard to secure maximum customer's satisfaction at all stages of business transactions .</p>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary">Scroll - Up <b></b></button>
+    </div>
+  </section>
+
+  <!-------------About us------------->
+
+
+
+  <!-------------Testimonials------------->
+
+  <section id="social-media">
+    <div class="container text-center">
+      <p>Find US ON SOCIAL MEDIA</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/mywastesolution"><img src="images/facebook-icon.png"> </a>
+        <a href="https://instagram.com/wastesolutionstn?igshid=YmMyMTA2M2Y="><img src="images/instagram-icon.png"> </a>
+        <a href="https://twitter.com/eco_waste"><img src="images/twitter-icon.png"> </a>
+        <a href="https://web.whatsapp.com/"><img src="images/whatsapp-icon.png"> </a>
+        <a
+          href="https://www.linkedin.com/jobs/search?keywords=waste%20solution&location=United%20States&geoId=103644278&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"><img
+            src="images/linkedin-icon.png"> </a>
+        <a href="https://www.snapchat.com/"><img src="images/snapchat-icon.png"> </a>
+
+      </div>
+    </div>
+
+  </section>
+  <!-------------footer-section------------->
+
+  <section id="footer">
+    <img src="images/wave2.png" class="footer-img">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-4 footer-box">
+          <img src="images/logo2.png">
+          <p> We are available 24/7 and a live chat on our website. we respond to your inquiries fast and in a friendly
+            manner.If you complains about a specific issue, so we trying to instance address it and ensure it does not
+            occur in the future.</p>
+        </div>
+        <div class="col-md-4 footer-box">
+          <p><b>CONTACT US</b> </p>
+          <p><i class="fa fa-map-marker"></i> waste solution center, banglor</p>
+          <p> <i class="fa fa-phone"></i> +91-8269954482</p>
+          <p><i class="fa fa-envelope-o"></i> wastesol@gmail.com</p>
+        </div>
+        <div class="col-md-4 footer-box">
+          <p><b>SUBSCRIBE NEWSLETTER</b> </p>
+          <input type="email" class="form-control" placeholder="your email">
+          <button type="button" class="btn btn-primary">Subscribe</button>
+        </div>
+
+      </div>
+      <hr>
+      <p class="copyright">www.wasteolution.com</p>
+    </div>
+
+  </section>
+</body>
+
+</html>
